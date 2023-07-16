@@ -1,1 +1,160 @@
-hello world
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ZeroLend - Lending Protocol on zkSync</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+        height: 100vh;
+        margin: 0;
+        overflow: hidden;
+        line-height: 1.5;
+        font-family: "Roboto", sans-serif;
+        background: #101711;
+        font-family: Arial, sans-serif;
+      }
+
+      #bg {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        left: 0;
+        height: 100%;
+        z-index: -1;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Tektur", sans-serif;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        /* position: absolute;
+        top: 0;
+        left: 0; */
+
+        max-width: 500px;
+      }
+
+      p {
+        margin-top: 0;
+      }
+
+      .title {
+        font-size: 70px;
+        margin-bottom: 0;
+        color: white;
+      }
+
+      canvas {
+        opacity: 0.3;
+        width: 100%;
+        z-index: -1;
+      }
+
+      button {
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid #fff;
+        padding: 10px 15px;
+        margin: 0 5px;
+        cursor: pointer;
+        color: #fff;
+      }
+
+      button:hover {
+        background: rgba(255, 255, 255, 0.9);
+        color: #000;
+      }
+
+      a,
+      a:visited,
+      a:hover {
+        text-decoration: none;
+        color: inherit;
+      }
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.trunk.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">ZER0LEND</h1>
+      <p>
+        A powerful decentralized lending protocol built on zkSync. Powered by
+        Aave and Pyth Network.
+      </p>
+
+      <p>Get ready for the Phase 1 of the $ZERO launch.</p>
+
+      <br />
+
+      <div style="margin-bottom: 15px">
+        <a href="https://app.zerolend.xyz">
+          <button>Enter App</button>
+        </a>
+      </div>
+
+      <div style="margin-bottom: 15px">
+        <div>
+          <a href="https://app.zerolend.xyz">
+            <button>Phase 1 Farming</button>
+          </a>
+          <a href="https://docs.zerolend.xyz">
+            <button>Docs</button>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <button>Follow us on Twitter</button>
+          <button>Join our Telegram</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="bg"></div>
+
+    <script>
+      VANTA.TRUNK({
+        el: "#bg",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0xffffff,
+        backgroundColor: 0x0,
+      });
+    </script>
+  </body>
+</html>
