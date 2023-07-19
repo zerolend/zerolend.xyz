@@ -48,8 +48,6 @@
         font-family: "Logirent";
         src: url("./logirent-font/Logirent-Bold.otf") format("opentype"),
           url("./logirent-font/Logirent-Bold.ttf") format("truetype");
-        /* src: url("./logirent-font/Logirent-Regular.otf"),
-          url("./logirent-font/Logirent-Regular.ttf"); */
       }
 
       body {
@@ -142,6 +140,17 @@
         font-size: 20px;
         padding: 5px 10px;
       }
+
+      #tvl {
+        /* font-size: 20px; */
+        margin: 0;
+      }
+
+      hr {
+        width: 100%;
+        margin: 30px 0;
+        opacity: 0.9;
+      }
     </style>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
@@ -176,7 +185,9 @@
 
       <p>Get ready for the Phase 1 of the $ZERO launch.</p>
 
-      <br />
+      <p id="tvl"><b>Total Value Locked</b>: Loading...</p>
+
+      <hr />
 
       <div style="margin-bottom: 15px">
         <a target="_blank" href="https://app.zerolend.xyz/markets">
@@ -228,6 +239,44 @@
         color: 0xffffff,
         backgroundColor: 0x0,
       });
+    </script>
+
+    <script>
+      // Function to fetch TVL from DeFiLlama API
+      function fetchTVL() {
+        const apiUrl = "https://api.llama.fi/protocol/zerolend";
+
+        fetch(apiUrl)
+          .then((response) => response.json())
+          .then((data) => {
+            // Assuming the TVL data is present in the 'tvl' property of the API response
+            const tvlValue = data.tvl[data.tvl.length - 1].totalLiquidityUSD;
+
+            console.log(data);
+
+            // Format the TVL value as needed (e.g., add commas for readability)
+            const formattedTVL = numberWithCommas(tvlValue);
+
+            // Update the content of the 'tvl' paragraph with the TVL value
+            document.getElementById(
+              "tvl"
+            ).innerHTML = `<b>Total Value Locked</b>: $${formattedTVL}`;
+          })
+          .catch((error) => {
+            console.error("Error fetching TVL:", error);
+            document.getElementById("tvl").textContent = "Error fetching TVL";
+          });
+      }
+
+      // Function to add commas to the TVL value for readability
+      function numberWithCommas(x) {
+        return Math.floor(x)
+          .toString()
+          .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+
+      // Call the fetchTVL function to get and display the TVL value
+      fetchTVL();
     </script>
   </body>
 </html>
