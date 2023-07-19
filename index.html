@@ -185,7 +185,7 @@
 
       <p>Get ready for the Phase 1 of the $ZERO launch.</p>
 
-      <p id="tvl"><b>Total Value Locked</b>: Loading...</p>
+      <p id="tvl"></p>
 
       <hr />
 
@@ -252,7 +252,10 @@
             // Assuming the TVL data is present in the 'tvl' property of the API response
             const tvlValue = data.tvl[data.tvl.length - 1].totalLiquidityUSD;
 
-            console.log(data);
+            if (tvlValue < 100000) {
+              document.getElementById("tvl").remove();
+              return;
+            }
 
             // Format the TVL value as needed (e.g., add commas for readability)
             const formattedTVL = numberWithCommas(tvlValue);
