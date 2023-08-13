@@ -74,7 +74,22 @@
         Aave and Pyth Network.
       </p>
 
-      <p>Early-bird farming of $ZERO is now live!</p>
+      <p>
+        Powering zkSync's first decentralized stablecoin
+        <a class="link" href="https://docs.zerolend.xyz/onez" target="_blank"
+          >$ONEZ</a
+        >
+      </p>
+
+      <p>
+        <a
+          class="link"
+          href="https://docs.zerolend.xyz/roadmap/phase-1-launch"
+          target="_blank"
+          >Early-bird farming</a
+        >
+        of $ZERO is now live!
+      </p>
 
       <p id="tvl"></p>
 
@@ -177,7 +192,12 @@
           .then((response) => response.json())
           .then((data) => {
             // Assuming the TVL data is present in the 'tvl' property of the API response
-            const tvlValue = data.tvl[data.tvl.length - 1].totalLiquidityUSD;
+            const tvlValue =
+              data.chainTvls.borrowed.tvl[
+                data.chainTvls.borrowed.tvl.length - 1
+              ].totalLiquidityUSD;
+            // const tvlValue = data.tvl[data.tvl.length - 1].totalLiquidityUSD;
+            // console.log(borrowed);
 
             if (tvlValue < 100000) {
               document.getElementById("tvl").remove();
