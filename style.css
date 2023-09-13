@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
 }
 
 .partners img {
@@ -25,21 +28,16 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   color: #fff;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
-  overflow: hidden;
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   background: #101711;
 }
 
 #bg {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   left: 0;
@@ -63,12 +61,20 @@ h6 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 
   /* position: absolute;
     top: 0;
     left: 0; */
 
   max-width: 500px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 16px;
+  }
 }
 
 p {
