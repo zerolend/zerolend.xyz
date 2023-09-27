@@ -16,6 +16,8 @@ body {
   background: #101711;
 }
 
+/* ========= Hero Section ========== */
+
 #hero-section {
   min-height: 100vh;
   position: relative;
@@ -27,12 +29,20 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 1000px;
+  width: 900px;
 }
 
 #hero-section .title-text {
   font-size: 100px;
   font-weight: 600;
+}
+
+#hero-section .title-text:nth-of-type(1) {
+  text-align: right;
+}
+
+#hero-section .title-text:nth-of-type(2) {
+  text-align: left;
 }
 
 #hero-section .title-subtitle {
@@ -77,4 +87,57 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+}
+
+
+/* ========= Pitch Section ========== */
+
+
+#pitch-section {
+  min-height: 100vh;
+  position: relative;
+}
+
+#pitch-section .text-area {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 900px;
+}
+
+#pitch-section .title-text {
+  font-size: 100px;
+  font-weight: 600;
+}
+
+#pitch-section .title-text:nth-of-type(1) {
+  text-align: right;
+}
+
+#pitch-section .title-text:nth-of-type(2) {
+  text-align: left;
+}
+
+#pitch-section .title-text:nth-of-type(3) {
+  text-align: right;
+}
+
+#pitch-section .title-highlight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+#pitch-section .highlight-text-div {
+  background: white;
+  padding: 0 32px;
+  border-radius: 60px;
+  margin-right: 12px;
+}
+
+#pitch-section .highlight-text-div span {
+  color: black;
 }
