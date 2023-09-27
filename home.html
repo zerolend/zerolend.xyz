@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link href="style.css" rel="stylesheet" />
+    <link href="style-1.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -67,22 +67,135 @@
       gtag("config", "G-XLP93X9ZM0");
     </script>
 
-    <section id="hero-section">
-      <div class="text-area">
-        <p class="title-text">DeFi Banking </p>
-        <p class="title-text">Should be</p>
-        <div class="title-subtitle">
-          <span class="subtitle-text">ZeroLend is a powerful user-friendly decentralized bank powered by zkSync</span>
-          <p class="title-text"> Simple</p>
-        </div>
-        <div class="cta-btn">
-          <span>VISIT APP</span>
-          <div class="arrow">
-            <i class="fa fa-arrow-right"></i>
-          </div>
+    <div class="container">
+      <h1 class="title">ZEROLEND</h1>
+      <p>
+        A powerful decentralized lending protocol built on zkSync. Powering
+        zkSync's first decentralized stablecoin
+        <a class="link" href="https://docs.zerolend.xyz/onez" target="_blank"
+          >$ONEZ</a
+        >
+      </p>
+
+      <p>
+        <a
+          class="link"
+          href="https://docs.zerolend.xyz/roadmap/phase-1-launch"
+          target="_blank"
+          >Early-bird farming</a
+        >
+        of $ZERO is now live!
+      </p>
+
+      <p id="tvl"></p>
+
+      <hr />
+
+      <div style="margin-bottom: 15px">
+        <a target="_blank" href="https://app.zerolend.xyz/markets">
+          <button>Enter App</button>
+        </a>
+      </div>
+
+      <div style="margin-bottom: 15px">
+        <div>
+          <a target="_blank" href="https://docs.zerolend.xyz/phase-1-launch">
+            <button>Phase 1 Launch</button>
+          </a>
+          <a target="_blank" href="https://docs.zerolend.xyz">
+            <button>Documentation</button>
+          </a>
+          <a target="_blank" href="https://docs.zerolend.xyz/audits">
+            <button>Audits</button>
+          </a>
         </div>
       </div>
-    </section>
+
+      <div>
+        <div>
+          <a target="_blank" href="https://twitter.com/zerolendxyz">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <!-- <a target="_blank" href="https://t.me/zerolendxyz">
+            <i class="fa-brands fa-telegram"></i>
+          </a> -->
+          <a target="_blank" href="https://discord.gg/YUQfhWcfZ7">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+          <a target="_blank" href="https://github.com/zerolend">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <hr />
+
+      <h3>Partners</h3>
+      <div class="partners">
+        <a
+          href="https://twitter.com/PythNetwork/status/1683842291478450177"
+          target="_blank"
+        >
+          <img src="./logos/pyth_logo_lockup_dark.png" />
+        </a>
+        <a
+          href="https://twitter.com/zerolendxyz/status/1680726249197690881"
+          target="_blank"
+        >
+          <img src="./logos/zksync.svg" />
+        </a>
+        <a
+          href="https://twitter.com/zerolendxyz/status/1691102398750789632"
+          target="_blank"
+        >
+          <img
+            src="https://www.gelato.network/brand-assets/Powered_by_Gelato/Powered_by_Gelato_White_B-layout.png"
+          />
+        </a>
+        <a
+          href="https://twitter.com/zerolendxyz/status/1699619482447290547"
+          target="_blank"
+        >
+          <img src="./logos/mundus.svg" />
+        </a>
+        <a
+          href="https://twitter.com/zerolendxyz/status/1700101716694421647"
+          target="_blank"
+        >
+          <img src="./logos/velocore.svg" />
+        </a>
+        <a
+          href="https://twitter.com/veSyncL2/status/1693656265917161840"
+          target="_blank"
+        >
+          <img src="./logos/vesync.svg" />
+        </a>
+
+        <!-- <a
+          href="https://twitter.com/PythNetwork/status/1683842291478450177"
+          target="_blank"
+        >
+          <img src="./logos/pyth_logo_lockup_dark.png" />
+        </a> -->
+      </div>
+    </div>
+
+    <div id="bg"></div>
+
+    <script>
+      VANTA.TRUNK({
+        el: "#bg",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0xffffff,
+        backgroundColor: 0x0,
+      });
+    </script>
 
     <script>
       // Function to fetch TVL from DeFiLlama API
