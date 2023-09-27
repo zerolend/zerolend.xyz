@@ -141,3 +141,11 @@ body {
 #pitch-section .highlight-text-div span {
   color: black;
 }
+
+#pitch-section .subtitle-text {
+  margin-top: 64px;
+  line-height: 1.5;
+  max-width: 500px;
+  text-align: left;
+  margin-left: auto;
+}
