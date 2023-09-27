@@ -16,6 +16,11 @@ body {
   background: #101711;
 }
 
+.container {
+  padding: 0 24px;
+  max-width: 1440px;
+}
+
 /* ========= Hero Section ========== */
 
 #hero-section {
@@ -54,11 +59,11 @@ body {
 
 #hero-section .subtitle-text {
   margin-right: 40px;
-  width: 200px;
+  width: 220px;
   line-height: 1.2;
   color: #ffffff98;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #hero-section .cta-btn {
@@ -148,4 +153,50 @@ body {
   max-width: 500px;
   text-align: left;
   margin-left: auto;
+}
+
+/* ========= Feature Section ========== */
+#feature-section {
+  /*min-height: 100vh;*/
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  width: 100%;
+  margin-top: 144px;
+}
+
+#feature-section .features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#feature-section .card-outside {
+  max-width: 25%;
+  padding: 12px;
+}
+
+#feature-section .card {
+  border-radius: 12px;
+  border: 1px solid white;
+}
+
+#feature-section .card .img {
+  min-height: 200px;
+}
+
+#feature-section .card .content {
+  text-align: center;
+  padding: 12px 12px 24px 12px;
+}
+
+#feature-section .card .title {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+#feature-section .card .desc {
+  font-size: 14px;
+  color: #ffffff90;
 }
