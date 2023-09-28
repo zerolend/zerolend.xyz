@@ -50,6 +50,7 @@
       src="https://kit.fontawesome.com/57e3eef859.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./scripts/strip-gradient.js"></script>
   </head>
   <body>
     <!-- Google tag (gtag.js) -->
@@ -69,6 +70,7 @@
 
     <div class="container">
       <section id="hero-section">
+        <canvas id="gradient-canvas"></canvas>
         <div class="text-area">
           <p class="title-text">DeFi Banking </p>
           <p class="title-text">Should be Simple</p>
@@ -170,7 +172,8 @@
           </div>
         </div>
       </section>
-      <section id="footer">
+    </div>
+    <section id="footer" class="container">
         <div class="left">
           <p class="conclusion-text">
             Step into the void with Zerolend
@@ -206,8 +209,7 @@
             </a>
           </div>
         </div>
-      </section>
-    </div>
+    </section>
     <script>
       // Function to fetch TVL from DeFiLlama API
       function fetchTVL() {
