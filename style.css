@@ -175,6 +175,9 @@ body {
 }
 
 @media (max-width: 720px) {
+  #hero-section {
+    min-height: 70vh;
+  }
   #hero-section .text-area {
     width: 440px;
   }
@@ -186,9 +189,22 @@ body {
     width: 160px;
   }
 }
+@media (max-width: 480px) {
+  #hero-section .text-area {
+    width: 100%;
+  }
+  #hero-section .title-text {
+    font-size: 32px;
+  }
+  #hero-section .title-subtitle {
+    justify-content: flex-end;
+  }
+  #hero-section .subtitle-text {
+    display: none;
+  }
+}
 
 /* ========= Pitch Section ========== */
-
 
 #pitch-section {
   min-height: 100vh;
@@ -274,7 +290,9 @@ body {
 
 @media (max-width: 720px) {
   #pitch-section {
-    padding-top: 144px;
+    padding-top: 84px;
+    padding-bottom: 84px;
+    min-height: 80vh;
   }
   #pitch-section .text-area {
     width: 400px;
@@ -292,6 +310,14 @@ body {
     margin-top: 48px;
   }
 }
+@media (max-width: 480px) {
+  #pitch-section .text-area {
+    width: calc(100% - 48px);
+  }
+  #pitch-section .title-text {
+    font-size: 32px;
+  }
+}
 
 /* ========= Feature Section ========== */
 #feature-section {
@@ -300,7 +326,14 @@ body {
   /*align-items: center;*/
   /*justify-content: center;*/
   width: 100%;
-  margin-top: 144px;
+  padding: 144px 0;
+}
+
+#feature-section .title {
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 24px;
 }
 
 #feature-section .features {
@@ -342,9 +375,24 @@ body {
 }
 
 @media (max-width: 720px) {
+  #feature-section {
+    padding-top: 84px;
+    padding-bottom: 84px;
+    min-height: max-content;
+  }
   #feature-section .card-outside {
     width: 50%;
     max-width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  #feature-section .title {
+    font-size: 32px;
+  }
+  #feature-section .card-outside {
+    width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -424,6 +472,9 @@ body {
 
 @media (max-width: 720px) {
   #footer {
+    padding-top: 84px;
+    padding-bottom: 84px;
+    min-height: max-content;
     display: block;
   }
   #footer .left {
@@ -433,6 +484,10 @@ body {
   }
   #footer .left .conclusion-text {
     font-size: 40px;
+    max-width: max-content;
+  }
+  #footer .left .cta-btns {
+    flex-wrap: wrap;
   }
   #footer .left .cta-btns .cta-btn {
     margin-top: 16px;
@@ -445,5 +500,11 @@ body {
   }
   #footer .right .right-content {
     margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  #footer .left .cta-btns {
+    display: block;
   }
 }
