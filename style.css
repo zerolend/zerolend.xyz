@@ -24,7 +24,7 @@ body {
 .cta-btn {
   padding: 6px 12px;
   border-radius: 28px;
-  background: #FFFFFF60;
+  background: #ffffff60;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,7 +97,6 @@ body {
   }
 }
 
-
 /* ========= Hero Section ========== */
 
 #hero-section {
@@ -139,7 +138,7 @@ body {
   width: 220px;
   line-height: 1.2;
   color: #ffffff98;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 14px;
 }
 
@@ -356,7 +355,7 @@ body {
 #feature-section .card .img {
   min-height: 200px;
   padding: 12px;
-  background: #FFFFFF10;
+  background: #ffffff10;
 }
 
 #feature-section .card .content {
@@ -441,7 +440,7 @@ body {
   color: white;
 }
 
-#footer .left .cta-btns .cta-btn:nth-of-type(1){
+#footer .left .cta-btns .cta-btn:nth-of-type(1) {
   margin-right: 24px;
 }
 
