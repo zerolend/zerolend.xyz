@@ -31,6 +31,7 @@ body {
   margin-top: 32px;
   cursor: pointer;
   width: max-content;
+  text-decoration: none;
 }
 
 .cta-btn span {
@@ -76,6 +77,26 @@ body {
     transform: translate(0, 0);
   }
 }
+
+@media (max-width: 1040px) {
+  .cta-btn {
+    padding: 4px 8px;
+  }
+}
+
+@media (max-width: 720px) {
+  .cta-btn {
+    padding: 4px 8px;
+  }
+  .cta-btn span {
+    padding: 0 18px;
+  }
+  .cta-btn .arrow {
+    height: 32px;
+    width: 32px;
+  }
+}
+
 
 /* ========= Hero Section ========== */
 
@@ -123,6 +144,7 @@ body {
 }
 
 #hero-section .cta-btn {
+  color: white;
   margin-left: auto;
   margin-right: auto;
 }
@@ -139,6 +161,32 @@ body {
   left: -24px;
 }
 
+@media (max-width: 1040px) {
+  #hero-section .text-area {
+    width: 600px;
+  }
+  #hero-section .title-text {
+    font-size: 60px;
+  }
+  #hero-section .subtitle-text {
+    font-size: 12px;
+    width: 180px;
+  }
+}
+
+@media (max-width: 720px) {
+  #hero-section .text-area {
+    width: 440px;
+  }
+  #hero-section .title-text {
+    font-size: 40px;
+  }
+  #hero-section .subtitle-text {
+    font-size: 10px;
+    width: 160px;
+  }
+}
+
 /* ========= Pitch Section ========== */
 
 
@@ -146,6 +194,8 @@ body {
   min-height: 100vh;
   padding-top: 288px;
   position: relative;
+  color: black;
+  background: white;
 }
 
 #pitch-section .text-area {
@@ -182,14 +232,14 @@ body {
 }
 
 #pitch-section .highlight-text-div {
-  background: white;
+  background: black;
   padding: 0 32px;
   border-radius: 60px;
   margin-right: 12px;
 }
 
 #pitch-section .highlight-text-div span {
-  color: black;
+  color: white;
 }
 
 #pitch-section .subtitle-text {
@@ -198,6 +248,49 @@ body {
   max-width: 500px;
   text-align: left;
   margin-left: auto;
+}
+
+@media (max-width: 1040px) {
+  #pitch-section {
+    padding-top: 164px;
+  }
+  #pitch-section .text-area {
+    width: 600px;
+  }
+  #pitch-section .title-text {
+    font-size: 60px;
+  }
+  #pitch-section .subtitle-text {
+    font-size: 12px;
+    max-width: 380px;
+  }
+  #pitch-section .highlight-text-div {
+    padding: 0 24px;
+  }
+  #pitch-section .subtitle-text {
+    margin-top: 48px;
+  }
+}
+
+@media (max-width: 720px) {
+  #pitch-section {
+    padding-top: 144px;
+  }
+  #pitch-section .text-area {
+    width: 400px;
+  }
+  #pitch-section .title-text {
+    font-size: 40px;
+  }
+  #pitch-section .subtitle-text {
+    font-size: 12px;
+  }
+  #pitch-section .highlight-text-div {
+    padding: 0 24px;
+  }
+  #pitch-section .subtitle-text {
+    margin-top: 48px;
+  }
 }
 
 /* ========= Feature Section ========== */
@@ -214,21 +307,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
 }
 
 #feature-section .card-outside {
-  max-width: 25%;
-  padding: 12px;
+  width: 25%;
 }
 
 #feature-section .card {
+  padding: 12px;
   border-radius: 12px;
-  border: 1px solid white;
 }
 
 #feature-section .card .img {
   min-height: 200px;
+  padding: 12px;
+  background: #FFFFFF10;
 }
 
 #feature-section .card .content {
@@ -246,13 +341,20 @@ body {
   color: #ffffff90;
 }
 
+@media (max-width: 720px) {
+  #feature-section .card-outside {
+    width: 50%;
+    max-width: 50%;
+  }
+}
+
 /* ========= Footer Section ========== */
 #footer {
   min-height: 100vh;
   background: white;
   color: black;
   display: flex;
-  margin-top: 144px;
+  padding-top: 144px;
 }
 
 #footer .footer {
@@ -284,6 +386,7 @@ body {
 
 #footer .left .cta-btns .cta-btn {
   background: #00000020;
+  color: black;
 }
 
 #footer .left .cta-btns .cta-btn .arrow {
@@ -296,20 +399,51 @@ body {
 
 #footer .right {
   width: 30%;
-  max-width: 30%;
+  max-width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+#footer .right .right-content {
+  margin-bottom: 32px;
+}
+
 #footer .social-media-links {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-left: -18px;
   width: 100%;
 }
 
 #footer .social-media-links a {
   color: black;
   margin: 0 18px;
+}
+
+@media (max-width: 720px) {
+  #footer {
+    display: block;
+  }
+  #footer .left {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+  }
+  #footer .left .conclusion-text {
+    font-size: 40px;
+  }
+  #footer .left .cta-btns .cta-btn {
+    margin-top: 16px;
+  }
+  #footer .right {
+    width: 100%;
+    max-width: max-content;
+    font-size: 12px;
+    margin-top: 44px;
+  }
+  #footer .right .right-content {
+    margin-bottom: 24px;
+  }
 }
