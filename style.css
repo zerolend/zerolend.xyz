@@ -433,6 +433,7 @@ body {
   font-size: 100px;
   font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: -6px;
 }
 
 #footer .left .conclusion-desc {
@@ -504,6 +505,7 @@ body {
   }
   #footer .left .conclusion-text {
     font-size: 40px;
+    letter-spacing: inherit;
   }
   #footer .left .cta-btns {
     flex-wrap: wrap;
