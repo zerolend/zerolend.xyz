@@ -486,6 +486,7 @@ body {
   }
   #footer .left .cta-btns {
     flex-wrap: wrap;
+    width: 100%;
   }
   #footer .left .cta-btns .cta-btn {
     margin-top: 16px;
