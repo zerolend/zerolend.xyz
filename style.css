@@ -358,9 +358,9 @@ body {
 }
 
 #feature-section .card .img {
-  min-height: 200px;
-  padding: 12px;
-  background: #ffffff10;
+  height: 250px;
+  border-radius: 12px;
+  width: -webkit-fill-available;
 }
 
 #feature-section .card .content {
