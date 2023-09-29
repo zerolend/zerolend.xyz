@@ -85,6 +85,9 @@ body {
 }
 
 @media (max-width: 720px) {
+  .container {
+    padding: 0 16px;
+  }
   .cta-btn {
     padding: 4px 8px;
   }
@@ -186,6 +189,9 @@ body {
   #hero-section .subtitle-text {
     font-size: 10px;
     width: 160px;
+  }
+  #gradient-canvas {
+    left: -16px;
   }
 }
 @media (max-width: 480px) {
@@ -311,7 +317,7 @@ body {
 }
 @media (max-width: 480px) {
   #pitch-section .text-area {
-    width: calc(100% - 48px);
+    width: calc(100% - 32px);
   }
   #pitch-section .title-text {
     font-size: 32px;
@@ -382,6 +388,9 @@ body {
     width: 50%;
     max-width: 50%;
   }
+  #feature-section .card {
+    padding: 12px 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -414,12 +423,22 @@ body {
   justify-content: center;
 }
 
-#footer .left .conclusion-text {
-  font-size: 100px;
+#footer .left .conclusion {
   max-width: 550px;
-  font-weight: 600;
   margin-left: auto;
   margin-right: auto;
+}
+
+#footer .left .conclusion-text {
+  font-size: 100px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#footer .left .conclusion-desc {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 #footer .left .cta-btns {
@@ -480,9 +499,11 @@ body {
     max-width: 100%;
     display: block;
   }
+  #footer .left .conclusion {
+    max-width: max-content;
+  }
   #footer .left .conclusion-text {
     font-size: 40px;
-    max-width: max-content;
   }
   #footer .left .cta-btns {
     flex-wrap: wrap;
