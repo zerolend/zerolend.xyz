@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
     <title>ZeroLend - Lending Protocol on zkSync</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,6 +13,7 @@
       rel="stylesheet"
     />
     <link href="style.css" rel="stylesheet" />
+    <link href="animate.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -46,6 +47,10 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.trunk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <script
       src="https://kit.fontawesome.com/57e3eef859.js"
       crossorigin="anonymous"
@@ -72,15 +77,14 @@
       <section id="hero-section">
         <canvas id="gradient-canvas"></canvas>
         <div class="text-area">
-          <p class="title-text">DeFi Banking</p>
-          <p class="title-text">Should Be Simple</p>
+          <p class="title-text wow fadeInRight">DeFi Banking </p>
+          <p class="title-text wow fadeInLeft">Should Be Simple</p>
           <div class="title-subtitle">
             <span class="subtitle-text"
-              ><i><b>ZeroLend</b></i> is a powerful user-friendly decentralized
+            ><i><b>ZeroLend</b></i> is a powerful user-friendly decentralized
               bank built on zkSync that is focused on introducing the next
               billion to the wonders of DeFi lending.</span
-            >
-            <p class="title-text">& Easy To Use</p>
+            ><p class="title-text wow fadeInRight">& Easy To Use</p>
           </div>
           <a class="cta-btn" href="https://app.zerolend.xyz" target="_self">
             <span>VISIT APP</span>
@@ -93,16 +97,16 @@
     </div>
     <section id="pitch-section" class="container">
       <div class="text-area">
-        <p class="title-text">DeFi Is Too</p>
-        <p class="title-text">Complex & Risky.</p>
-        <p class="title-text">We need to make it</p>
-        <div class="title-highlight">
+        <p class="title-text wow fadeInRight">DeFi Is Too</p>
+        <p class="title-text wow fadeInLeft">Complex & Risky.</p>
+        <p class="title-text wow fadeInRight">We need to make it</p>
+        <div class="title-highlight ">
           <div class="highlight-text-div">
             <span class="title-text">Simple</span>
           </div>
           <p class="title-text">& Safe</p>
         </div>
-        <p class="title-text">for People To Use</p>
+        <p class="title-text wow fadeInLeft">for People To Use</p>
         <div class="subtitle-text">
           Decentalized Finance solves the many problems of Traditional Finance
           like centralizaton, lack of transparency; But are very hard to use.
@@ -119,7 +123,9 @@
             <div class="card">
               <div class="img"></div>
               <div class="content">
-                <div class="title">Deposit Assets & Take Loans</div>
+                <div class="title">
+                    Deposit Assets & Take Loans
+                </div>
                 <div class="desc">
                   The ever-changing digital world requires a progressive
                   approach.
