@@ -18,7 +18,7 @@ body {
 
 .container {
   padding: 0 24px;
-  max-width: 1440px;
+  /* max-width: 1440px; */
 }
 
 .cta-btn {
@@ -143,6 +143,10 @@ body {
   color: #ffffff98;
   /* text-transform: uppercase; */
   font-size: 14px;
+}
+
+#hero-section .subtitle-text b {
+  color: #fff;
 }
 
 #hero-section .cta-btn {
