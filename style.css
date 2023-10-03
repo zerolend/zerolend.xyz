@@ -10,7 +10,7 @@
 }
 
 body {
-  color: #fff;
+  color: #212427;
   margin: 0;
   font-family: "Roboto", sans-serif;
   background: #101711;
@@ -130,6 +130,7 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 900px;
+  color: white;
 }
 
 #hero-section .title-text {
@@ -236,7 +237,7 @@ body {
   min-height: 100vh;
   padding: 144px 0;
   position: relative;
-  color: black;
+  color: #212427;
   background: white;
   border-radius: 24px 24px 0 0;
 }
@@ -429,11 +430,48 @@ body {
   }
 }
 
+/* ========= Marquee Section ========== */
+#partners {
+  padding: 144px 0;
+  background: #FAF9F6;
+  /*background: white;*/
+  position: relative;
+}
+
+#partners .title {
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #101711;
+}
+
+#partners .partners-marquee {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+}
+
+#partners .partners-marquee img {
+  max-width: 220px;
+  padding: 24px;
+  opacity: 0.6;
+}
+
+#partners .partners img:hover {
+  opacity: 0.5;
+}
+
+
 /* ========= Footer Section ========== */
 #footer {
   min-height: 100vh;
+  /*background: #FAF9F6;*/
   background: white;
-  color: black;
+  color: #212427;
   display: flex;
   padding-top: 144px;
   position: relative;
@@ -479,7 +517,7 @@ body {
 
 #footer .left .cta-btns .cta-btn {
   background: #00000020;
-  color: black;
+  color: #212427;
 }
 
 #footer .left .cta-btns .cta-btn .arrow {
@@ -511,7 +549,7 @@ body {
 }
 
 #footer .social-media-links a {
-  color: black;
+  color: #212427;
   margin: 0 18px;
 }
 
