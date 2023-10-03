@@ -100,10 +100,26 @@ body {
   }
 }
 
+.fixed-section {
+  position: fixed;
+}
+
+.moving-section {
+  padding-top: 100vh;
+  border-radius: 24px;
+}
+
+@media (max-width: 720px) {
+  .moving-section {
+    padding-top: 70vh;
+  }
+}
+
 /* ========= Hero Section ========== */
 
 #hero-section {
   min-height: 100vh;
+  width: calc(100vw - 48px);
   position: relative;
 }
 
@@ -183,6 +199,7 @@ body {
 @media (max-width: 720px) {
   #hero-section {
     min-height: 70vh;
+    width: calc(100vw - 32px);
   }
   #hero-section .text-area {
     width: 440px;
@@ -217,10 +234,11 @@ body {
 
 #pitch-section {
   min-height: 100vh;
-  padding-top: 288px;
+  padding: 144px 0;
   position: relative;
   color: black;
   background: white;
+  border-radius: 24px 24px 0 0;
 }
 
 #pitch-section .text-area {
@@ -302,6 +320,7 @@ body {
     padding-top: 84px;
     padding-bottom: 84px;
     min-height: 80vh;
+    border-radius: 16px 16px 0 0;
   }
   #pitch-section .text-area {
     width: 400px;
@@ -336,6 +355,8 @@ body {
   /*justify-content: center;*/
   width: 100%;
   padding: 144px 0;
+  background: #FAF9F6;
+  position: relative;
 }
 
 #feature-section .title {
@@ -343,6 +364,7 @@ body {
   font-weight: bold;
   text-align: center;
   margin-bottom: 24px;
+  color: #101711;
 }
 
 #feature-section .features {
@@ -379,7 +401,7 @@ body {
 
 #feature-section .card .desc {
   font-size: 14px;
-  color: #ffffff90;
+  color: #00000090;
 }
 
 @media (max-width: 720px) {
@@ -414,6 +436,7 @@ body {
   color: black;
   display: flex;
   padding-top: 144px;
+  position: relative;
 }
 
 #footer .footer {
@@ -492,6 +515,9 @@ body {
   margin: 0 18px;
 }
 
+#footer .social-media-links a i {
+  font-size: 24px;
+}
 @media (max-width: 720px) {
   #footer {
     padding-top: 84px;
@@ -532,5 +558,8 @@ body {
 @media (max-width: 480px) {
   #footer .left .cta-btns {
     display: block;
+  }
+  #footer .social-media-links a i {
+    font-size: 18px;
   }
 }
