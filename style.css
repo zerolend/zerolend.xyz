@@ -234,7 +234,7 @@ body {
 /* ========= Pitch Section ========== */
 
 #pitch-section {
-  min-height: 100vh;
+  min-height: 130vh;
   padding: 144px 0;
   position: relative;
   color: #212427;
@@ -280,6 +280,7 @@ body {
   padding: 0 32px;
   border-radius: 60px;
   margin-right: 12px;
+  margin-left: 12px;
 }
 
 #pitch-section .highlight-text-div span {
@@ -310,6 +311,7 @@ body {
   }
   #pitch-section .highlight-text-div {
     padding: 0 24px;
+    margin: 0 6px;
   }
   #pitch-section .subtitle-text {
     margin-top: 48px;
@@ -327,7 +329,7 @@ body {
     width: 400px;
   }
   #pitch-section .title-text {
-    font-size: 40px;
+    font-size: 32px;
   }
   #pitch-section .subtitle-text {
     font-size: 12px;
@@ -344,7 +346,7 @@ body {
     width: calc(100% - 32px);
   }
   #pitch-section .title-text {
-    font-size: 32px;
+    font-size: 26px;
   }
 }
 
@@ -459,6 +461,10 @@ body {
   max-width: 220px;
   padding: 24px;
   opacity: 0.6;
+}
+
+#partners .partners-marquee .invert {
+  filter: invert(1);
 }
 
 #partners .partners img:hover {
