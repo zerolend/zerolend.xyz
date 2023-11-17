@@ -162,6 +162,10 @@ body {
   font-size: 14px;
 }
 
+#hero-section .mobile-version {
+  display: none;
+}
+
 #hero-section .subtitle-text b {
   color: #fff;
 }
@@ -228,6 +232,11 @@ body {
   }
   #hero-section .subtitle-text {
     display: none;
+  }
+  #hero-section .mobile-version {
+    display: block;
+    width: 100%;
+    margin-top: 24px;
   }
 }
 
