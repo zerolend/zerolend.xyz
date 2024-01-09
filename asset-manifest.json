@@ -1,36 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.dac0870f.css",
-    "main.js": "/static/js/main.11373df7.js",
+    "main.css": "/static/css/main.9e3cdffb.css",
+    "main.js": "/static/js/main.16769918.js",
     "static/js/787.d80bfe17.chunk.js": "/static/js/787.d80bfe17.chunk.js",
-    "static/media/zero-3d-left.svg": "/static/media/zero-3d-left.c34862d5ad9d7069794807eb370618de.svg",
-    "static/media/zero-3d-mo.svg": "/static/media/zero-3d-mo.5f9ec09130ac125a6401d7b0fc0a5f8d.svg",
-    "static/media/zero-3d-right.svg": "/static/media/zero-3d-right.8860dc2799152ade6372d2dc3f19e35e.svg",
     "static/media/pyth.svg": "/static/media/pyth.b3774397cf52e9d5238ba1af06e6efcc.svg",
+    "static/media/deep-waves.png": "/static/media/deep-waves.92555f9fe9a48dcd3577.png",
+    "static/media/footer-deep-waves.png": "/static/media/footer-deep-waves.773a08edfd4b28762ba7.png",
     "static/media/Odos.png": "/static/media/Odos.4d53d5d437c48d9266eb.png",
     "static/media/manuds-security.svg": "/static/media/manuds-security.5b45189c31e2d87779768f5527f3071e.svg",
+    "static/media/zero-3d-right.png": "/static/media/zero-3d-right.f9c21bc347138539c0b3.png",
     "static/media/gelato.svg": "/static/media/gelato.db89c622444a457ff41384f9805ce1ed.svg",
+    "static/media/zero-3d-left.png": "/static/media/zero-3d-left.67abb917d4ef25fbec77.png",
     "static/media/mo-tube-1.png": "/static/media/mo-tube-1.d59fb6921f31baa04c11.png",
+    "static/media/zerolend.png": "/static/media/zerolend.4038e7a44b5c02780ac9.png",
     "static/media/era.svg": "/static/media/era.fcc2a14d8124b1b4ecd0b77856068eb0.svg",
     "static/media/Mundussecurity.svg": "/static/media/Mundussecurity.ab6962529da4e5bc8f91ba6c481e4048.svg",
     "static/media/Velocore.svg": "/static/media/Velocore.a768ab30dbccad959ea0354b7868eba0.svg",
     "static/media/LayerZero.svg": "/static/media/LayerZero.e2fa62a4c99eaec22714cb19bddf2b13.svg",
     "static/media/zerolend-logo-lg.svg": "/static/media/zerolend-logo-lg.a94ee879d1c589ba27f50a4da6027724.svg",
-    "static/media/Zerolend.svg": "/static/media/Zerolend.ccd22e5f6d9b77ddb11a60e0160350f8.svg",
-    "static/media/footer-deep-waves.svg": "/static/media/footer-deep-waves.6537f84f5cc025fa2667484196d1e42a.svg",
     "static/media/Vesync.svg": "/static/media/Vesync.185547978df531d02121aab78ca455ac.svg",
-    "static/media/deep-waves.svg": "/static/media/deep-waves.6edb11b12a1deabe3fbc6d064d7b35a7.svg",
     "static/media/okx.svg": "/static/media/okx.e5998eb3a954720359ee51cff0580469.svg",
     "static/media/Bitget.svg": "/static/media/Bitget.de5e0f81acaddc31bda04ede84596c3a.svg",
     "index.html": "/index.html",
     "static/media/Liquity.svg": "/static/media/Liquity.6c63a29dcbcee681c3d5431245813010.svg",
     "static/media/Rocifi.svg": "/static/media/Rocifi.f52e12ac0408ea9238caeb3303c3c8d6.svg",
-    "main.dac0870f.css.map": "/static/css/main.dac0870f.css.map",
-    "main.11373df7.js.map": "/static/js/main.11373df7.js.map",
+    "main.9e3cdffb.css.map": "/static/css/main.9e3cdffb.css.map",
+    "main.16769918.js.map": "/static/js/main.16769918.js.map",
     "787.d80bfe17.chunk.js.map": "/static/js/787.d80bfe17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dac0870f.css",
-    "static/js/main.11373df7.js"
+    "static/css/main.9e3cdffb.css",
+    "static/js/main.16769918.js"
   ]
 }
