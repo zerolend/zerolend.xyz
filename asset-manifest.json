@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.4254ec09.css",
-    "main.js": "/static/js/main.901f61ca.js",
+    "main.js": "/static/js/main.f6497c48.js",
     "static/js/787.d80bfe17.chunk.js": "/static/js/787.d80bfe17.chunk.js",
     "static/media/pyth.svg": "/static/media/pyth.b3774397cf52e9d5238ba1af06e6efcc.svg",
     "static/media/deep-waves.png": "/static/media/deep-waves.92555f9fe9a48dcd3577.png",
     "static/media/footer-deep-waves.png": "/static/media/footer-deep-waves.773a08edfd4b28762ba7.png",
     "static/media/zerolend.png": "/static/media/zerolend.24166e59712fa007878e.png",
+    "static/media/peckshield.svg": "/static/media/peckshield.f06619fe5c0414697d3206783b2c2c18.svg",
     "static/media/Odos.png": "/static/media/Odos.4d53d5d437c48d9266eb.png",
+    "static/media/halborn.svg": "/static/media/halborn.6c4a1fb2becfba25b4e61b6049c84316.svg",
     "static/media/manuds-security.svg": "/static/media/manuds-security.5b45189c31e2d87779768f5527f3071e.svg",
     "static/media/zero-3d-right.png": "/static/media/zero-3d-right.f9c21bc347138539c0b3.png",
     "static/media/gelato.svg": "/static/media/gelato.db89c622444a457ff41384f9805ce1ed.svg",
@@ -25,11 +27,11 @@
     "static/media/Liquity.svg": "/static/media/Liquity.6c63a29dcbcee681c3d5431245813010.svg",
     "static/media/Rocifi.svg": "/static/media/Rocifi.f52e12ac0408ea9238caeb3303c3c8d6.svg",
     "main.4254ec09.css.map": "/static/css/main.4254ec09.css.map",
-    "main.901f61ca.js.map": "/static/js/main.901f61ca.js.map",
+    "main.f6497c48.js.map": "/static/js/main.f6497c48.js.map",
     "787.d80bfe17.chunk.js.map": "/static/js/787.d80bfe17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4254ec09.css",
-    "static/js/main.901f61ca.js"
+    "static/js/main.f6497c48.js"
   ]
 }
