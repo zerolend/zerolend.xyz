@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4254ec09.css",
-    "main.js": "/static/js/main.11b3f09b.js",
+    "main.js": "/static/js/main.1c685b40.js",
     "static/js/787.d80bfe17.chunk.js": "/static/js/787.d80bfe17.chunk.js",
     "static/media/pyth.svg": "/static/media/pyth.b3774397cf52e9d5238ba1af06e6efcc.svg",
     "static/media/deep-waves.png": "/static/media/deep-waves.92555f9fe9a48dcd3577.png",
@@ -20,26 +20,32 @@
     "static/media/zero-3d-right.png": "/static/media/zero-3d-right.f9c21bc347138539c0b3.png",
     "static/media/gelato.svg": "/static/media/gelato.db89c622444a457ff41384f9805ce1ed.svg",
     "static/media/zero-3d-left.png": "/static/media/zero-3d-left.67abb917d4ef25fbec77.png",
+    "static/media/etherfi.png": "/static/media/etherfi.86ebb2d19766c5c24165.png",
     "static/media/mo-tube-1.png": "/static/media/mo-tube-1.d59fb6921f31baa04c11.png",
     "static/media/era.svg": "/static/media/era.fcc2a14d8124b1b4ecd0b77856068eb0.svg",
+    "static/media/eigenpie.png": "/static/media/eigenpie.642d90276010fcc456d8.png",
     "static/media/Mundussecurity.svg": "/static/media/Mundussecurity.ab6962529da4e5bc8f91ba6c481e4048.svg",
     "static/media/spearbit.png": "/static/media/spearbit.35c185a3c50592d444a0.png",
+    "static/media/pufferFi.svg": "/static/media/pufferFi.c14586352c60ad0a601c4be97bb9f91b.svg",
     "static/media/Velocore.svg": "/static/media/Velocore.a768ab30dbccad959ea0354b7868eba0.svg",
     "static/media/LayerZero.svg": "/static/media/LayerZero.e2fa62a4c99eaec22714cb19bddf2b13.svg",
     "static/media/zerolend-logo-lg.svg": "/static/media/zerolend-logo-lg.a94ee879d1c589ba27f50a4da6027724.svg",
     "static/media/Vesync.svg": "/static/media/Vesync.185547978df531d02121aab78ca455ac.svg",
+    "static/media/kelpDao.svg": "/static/media/kelpDao.b353a57a93a62b2d4036618a0c7c2ed3.svg",
     "static/media/chaos.svg": "/static/media/chaos.effdd44719bad02a88585bd5ac40be7e.svg",
     "static/media/aave.svg": "/static/media/aave.58aec338176d9218d6d4d5a22a6d8955.svg",
     "static/media/okx.svg": "/static/media/okx.e5998eb3a954720359ee51cff0580469.svg",
+    "static/media/renzo.svg": "/static/media/renzo.a12e8d9d59bca0fd01d796c2d2f75a3f.svg",
     "static/media/Bitget.svg": "/static/media/Bitget.de5e0f81acaddc31bda04ede84596c3a.svg",
     "static/media/Liquity.svg": "/static/media/Liquity.6c63a29dcbcee681c3d5431245813010.svg",
     "index.html": "/index.html",
+    "static/media/swell.svg": "/static/media/swell.95c36cc768afe35f011674a08d86eafa.svg",
     "main.4254ec09.css.map": "/static/css/main.4254ec09.css.map",
-    "main.11b3f09b.js.map": "/static/js/main.11b3f09b.js.map",
+    "main.1c685b40.js.map": "/static/js/main.1c685b40.js.map",
     "787.d80bfe17.chunk.js.map": "/static/js/787.d80bfe17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4254ec09.css",
-    "static/js/main.11b3f09b.js"
+    "static/js/main.1c685b40.js"
   ]
 }
