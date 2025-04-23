@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.9d5b7e11.css",
-    "main.js": "/static/js/main.77d445fc.js",
+    "main.js": "/static/js/main.4d517f9e.js",
     "static/js/787.d80bfe17.chunk.js": "/static/js/787.d80bfe17.chunk.js",
+    "static/media/black-card-bg.png": "/static/media/black-card-bg.f956b22580f2d575ff67.png",
     "static/media/pyth.svg": "/static/media/pyth.b3774397cf52e9d5238ba1af06e6efcc.svg",
     "static/media/deep-waves.png": "/static/media/deep-waves.92555f9fe9a48dcd3577.png",
     "static/media/footer-deep-waves.png": "/static/media/footer-deep-waves.773a08edfd4b28762ba7.png",
@@ -43,11 +44,11 @@
     "index.html": "/index.html",
     "static/media/swell.svg": "/static/media/swell.95c36cc768afe35f011674a08d86eafa.svg",
     "main.9d5b7e11.css.map": "/static/css/main.9d5b7e11.css.map",
-    "main.77d445fc.js.map": "/static/js/main.77d445fc.js.map",
+    "main.4d517f9e.js.map": "/static/js/main.4d517f9e.js.map",
     "787.d80bfe17.chunk.js.map": "/static/js/787.d80bfe17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d5b7e11.css",
-    "static/js/main.77d445fc.js"
+    "static/js/main.4d517f9e.js"
   ]
 }
