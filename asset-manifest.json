@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9d5b7e11.css",
-    "main.js": "/static/js/main.4d517f9e.js",
+    "main.js": "/static/js/main.de289dcc.js",
     "static/js/787.d80bfe17.chunk.js": "/static/js/787.d80bfe17.chunk.js",
     "static/media/black-card-bg.png": "/static/media/black-card-bg.f956b22580f2d575ff67.png",
     "static/media/pyth.svg": "/static/media/pyth.b3774397cf52e9d5238ba1af06e6efcc.svg",
@@ -14,6 +14,7 @@
     "static/media/manuds-security.svg": "/static/media/manuds-security.25e1628c6a05b8086422d1eae3799f66.svg",
     "static/media/stakestone.png": "/static/media/stakestone.ffa3953f2ed3c4828185.png",
     "static/media/transformCapital.png": "/static/media/transformCapital.6ee98163f93c6e15c1a5.png",
+    "static/media/black-card-mobile.png": "/static/media/black-card-mobile.2049dcd19d3ecd1e2aa0.png",
     "static/media/Manta.png": "/static/media/Manta.6b411bc06c6152b78ef4.png",
     "static/media/blockchainFounders.png": "/static/media/blockchainFounders.415ff36d4203eb17ed3a.png",
     "static/media/bisonFund.png": "/static/media/bisonFund.1fa7ab41e3bfb128770e.png",
@@ -44,11 +45,11 @@
     "index.html": "/index.html",
     "static/media/swell.svg": "/static/media/swell.95c36cc768afe35f011674a08d86eafa.svg",
     "main.9d5b7e11.css.map": "/static/css/main.9d5b7e11.css.map",
-    "main.4d517f9e.js.map": "/static/js/main.4d517f9e.js.map",
+    "main.de289dcc.js.map": "/static/js/main.de289dcc.js.map",
     "787.d80bfe17.chunk.js.map": "/static/js/787.d80bfe17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d5b7e11.css",
-    "static/js/main.4d517f9e.js"
+    "static/js/main.de289dcc.js"
   ]
 }
